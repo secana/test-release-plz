@@ -1,6 +1,6 @@
 [workspace]
 # Disable changelog updates for this project. The changelog is hosted in a separate repository.
-changelog_update = false
+#changelog_update = false
 changelog_path = "./CHANGELOG.md"
 
 # disable API breaking changes checks. For a binary like kellnr, it is not possible
@@ -41,7 +41,7 @@ git_release_name = "Version {{ version }}"
 # Enable release for this package
 release = true
 
-changelog_update = true
+#changelog_update = true
 
 # Include commits to dependencies from the workspace
 changelog_include = [
