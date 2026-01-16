@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.0](https://github.com/secana/test-release-plz/compare/kellnr-auth-v1.4.0...kellnr-auth-v1.5.0) - 2026-01-16
+
+### Added
+- in auth
+- in auth
+- in auth
+- in auth
+- add first implementation
+
+### Other
+- release v1.4.0
+- Initial commit
+
 ## [1.4.0](https://github.com/secana/test-release-plz/compare/kellnr-auth-v1.3.1...kellnr-auth-v1.4.0) - 2026-01-16
 
 ### Added

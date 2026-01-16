@@ -4,7 +4,7 @@ version = 4
 
 [[package]]
 name = "kellnr"
-version = "1.4.0"
+version = "1.5.0"
 dependencies = [
  "kellnr-appstate",
  "kellnr-auth",
@@ -12,8 +12,8 @@ dependencies = [
 
 [[package]]
 name = "kellnr-appstate"
-version = "1.4.0"
+version = "1.5.0"
 
 [[package]]
 name = "kellnr-auth"
-version = "1.4.0"
+version = "1.5.0"
