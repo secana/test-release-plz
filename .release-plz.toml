@@ -14,16 +14,13 @@ release_always = false
 publish = false
 
 # Disable release per default
-release = false
+release = true
 
 # Disable git releases for all packages by default
 git_release_enable = false
 
 # Disable git tags for all packages by default
 git_tag_enable = false
-
-# Enable release for this package
-release = true
 
 [[package]]
 name = "kellnr"
