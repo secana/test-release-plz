@@ -22,6 +22,8 @@ git_release_enable = false
 # Disable git tags for all packages by default
 git_tag_enable = false
 
+# Enable release for this package
+release = true
 
 [[package]]
 name = "kellnr"
@@ -37,8 +39,6 @@ git_release_enable = true
 # Change the release title
 git_release_name = "Version {{ version }}"
 
-# Enable release for this package
-release = true
 
 #changelog_update = true
 
