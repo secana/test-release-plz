@@ -1,7 +1,6 @@
 [workspace]
 # Disable changelog updates for this project. The changelog is hosted in a separate repository.
 #changelog_update = false
-changelog_path = "./CHANGELOG.md"
 
 # disable API breaking changes checks. For a binary like kellnr, it is not possible
 # to automatically check for API breaking changes, as no API is exposed. Breaking changes can
@@ -48,4 +47,5 @@ changelog_include = [
   "kellnr-appstate",
   "kellnr-auth",
 ]
+changelog_path = "./CHANGELOG.md"
 
