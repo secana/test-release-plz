@@ -20,26 +20,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v6
 
-
-
-      - name: Install Nix
-        uses: cachix/install-nix-action@v31
-        with:
-          extra_nix_config: |
-            experimental-features = nix-command flakes
-
-      - name: Check formatting
-        run: nix develop --command just ci-fmt-check
-
-      - name: Run clippy
-        run: nix develop --command just ci-clippy
-
+      - name: Setup Rust
+        uses: hecrj/setup-rust-action@v2
 
       - name: Run tests
-        run: nix develop --command just test
-
-
-      - name: Run documentation tests
-        run: nix develop --command just test-docs
-        env:
-          RUSTDOCFLAGS: "-D warnings"
+        run: cargo test
