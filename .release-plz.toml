@@ -1,3 +1,49 @@
 [workspace]
+# Disable changelog updates for this project. The changelog is hosted in a separate repository.
+changelog_update = false
+changelog_path = "./CHANGELOG.md"
+
+# disable API breaking changes checks. For a binary like kellnr, it is not possible
+# to automatically check for API breaking changes, as no API is exposed. Breaking changes can
+# happen if for example a migration cannot be applied anymore, but this cannot be detected automatically.
+semver_check = false
+
 # Release only if the release PR is merged, not on every push to main
 release_always = false
+
+# Publishing is done in the usual CI pipeline, not via release-plz
+publish = false
+
+# Disable release per default
+release = false
+
+# Disable git releases for all packages by default
+git_release_enable = false
+
+# Disable git tags for all packages by default
+git_tag_enable = false
+
+
+[[package]]
+name = "kellnr"
+# (Optional) Customize the git tag name to remove the `my_main_package` prefix.
+git_tag_name = "v{{ version }}"
+
+# Enable git tags for this package
+git_tag_enable = true
+
+# Enable git releases for this package
+git_release_enable = true
+
+# Change the release title
+git_release_name = "Version {{ version }}"
+
+# Enable release for this package
+release = true
+
+# Include commits to dependencies from the workspace
+changelog_include = [
+  "kellnr-appstate",
+  "kellnr-auth",
+]
+
