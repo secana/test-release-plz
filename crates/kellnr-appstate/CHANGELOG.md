@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.6.0](https://github.com/secana/test-release-plz/compare/kellnr-appstate-v1.5.0...kellnr-appstate-v1.6.0) - 2026-01-18
+
+### Added
+- add print
+- in appstate
+- in appstate
+- in appstate
+- in appsate
+- in appstate
+- in appstate
+- add first implementation
+
+### Other
+- release v1.5.0
+- release v1.4.0
+- Initial commit
+
 ## [1.5.0](https://github.com/secana/test-release-plz/compare/kellnr-appstate-v1.4.0...kellnr-appstate-v1.5.0) - 2026-01-16
 
 ### Added

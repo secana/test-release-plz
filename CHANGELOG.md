@@ -7,6 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.6.0](https://github.com/secana/test-release-plz/compare/v1.5.0...v1.6.0) - 2026-01-18
+
+### Added
+- add print
+- in appstate
+- in appstate
+- in appstate
+- in appsate
+- in appstate
+- in appstate
+- add first implementation
+- in auth
+- in auth
+- in auth
+- in auth
+
+### Other
+- update Cargo.lock dependencies
+- release v1.5.0
+- release v1.4.0
+- Initial commit
+
 ## [1.5.0](https://github.com/secana/test-release-plz/compare/v1.4.0...v1.5.0) - 2026-01-16
 
 ### Added
