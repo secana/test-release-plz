@@ -24,12 +24,11 @@ jobs:
         name: Install Rust toolchain
         uses: dtolnay/rust-toolchain@stable
       - name: Run k-releaser
-        uses: secana/k-releaser@v0.1.2
+        uses: secana/k-releaser@v0.1.3
         with:
-          command: release --git-token $GITHUB_TOKEN
+          command: release
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_PLZ_TOKEN }}
-          CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
 
   # Create a PR with the new versions and changelog, preparing the next release.
   k-releaser-pr:
@@ -46,9 +45,8 @@ jobs:
       - *checkout
       - *install-rust
       - name: Run k-releaser
-        uses: secana/k-releaser@v0.1.2
+        uses: secana/k-releaser@v0.1.3
         with:
-          command: release-pr --git-token $GITHUB_TOKEN
+          command: release-pr
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_PLZ_TOKEN }}
-          CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
