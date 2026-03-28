@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.8.0](https://github.com/secana/test-release-plz/compare/v1.7.1...v1.8.0) - 2026-01-19
+
+### Added
+- some feature in main
+- add print
+- in appstate
+- in appstate
+- in appstate
+- in appsate
+- in appstate
+- in appstate
+- add first implementation
+- in auth
+- in auth
+- in auth
+- in auth
+
+### Fixed
+- in appstate
+
+### Other
+- release v1.5.0
+- release v1.4.0
+- Initial commit
+- in auth
+
 ## [1.5.0](https://github.com/secana/test-release-plz/compare/v1.4.0...v1.5.0) - 2026-01-16
 
 ### Added
